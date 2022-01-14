@@ -60,6 +60,9 @@ a{
 }
 
 /* ============================== header area style =================================== */
+.header{
+    margin-bottom: 100px;
+}
 .nav-menu{
     display:none;
     justify-content: space-between;
