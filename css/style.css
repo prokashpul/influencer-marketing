@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+:root{
+    --primary-color:#012443;
+    --secondary-color: #8236CB;
+    --star-color: #FE7E6D;
+    --white-color: #fff;
+}
+html,body{
+    font-family: 'Inter', sans-serif;
+    font-size: 100%;
+    color: var(--primary-color);
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+}
+/* ===================== common uses elements ======================== */
+h1,h2,h3{
+    font-weight: 700;
+}
+h1{
+    font-size:3.25em;
+}
+h2{
+    font-size:2.37em;
+}
+h3{
+    font-size: 1.75em;
+}
+a{
+    text-decoration:none;
+}
+.container{
+    max-width:1028px;
+}
+.btn{
+    font-size:1em;
+    font-weight:700;
+    color: var(--white-color);
+    background-color: var(--secondary-color);
+    box-shadow: 0 0 24px var(--secondary-color);
+    padding:10px 24px;
+    margin: 20px 0;
+    display:inline-block;
+    transition: 1s ease;
+}
+.btn i{
+    margin-left: 10px;
+}
+.btn:hover{
+    transform:scale(1.1)
+}
+.base-color{
+    color:var(--secondary-color);
+}
+
+/* ============================== header area style =================================== */
+.nav-menu{
+    display:none;
+    justify-content: space-between;
+    padding: 45px 0 0;
+}
+.nav-menu .menu-items{
+    display:flex;
+    align-items:center;
+}
+.nav-menu .menu-items .menu-item{
+    list-style: none;
+    margin-right: 34px;
+}
+.nav-menu .menu-items .menu-item a{
+    font-size: 1em;
+    color:var(--primary-color);
+}
+/* header content */
+.header-conten{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-top:80px;
+    height: calc(100vh-80px);
+}
+.header-left,.hrader-right{
+    flex-basis: 45%;
+    
+}
+.header-left .btn{
+    border-radius: 50px;
+}
+.header-left h1{
+    margin-bottom: 16px;
+}
+
+.hrader-right img{
+    width:440px;
+    height: 414px;
+    border-radius:10px;
+    transition: 1s ease;
+}
+.hrader-right img:hover{
+    transform: scale(1.1);
+}
