@@ -184,6 +184,7 @@ a{
     padding: 30px;
     background-color: var(--primary-color);
     color: var(--white-color);
+    border-radius: 10px;
     transition: 1s  ease;
 }
 .contact-item:hover{
