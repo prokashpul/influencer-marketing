@@ -14,11 +14,16 @@
         width:100%;
         height:100%;
     }
+    /* =============clicent area============== */
+    .clients{
+        grid-template-columns:repeat(3, 1fr);
+    }
     /* =================== product area =========================== */
     .product-items{
         grid-template-columns: repeat(2,1fr);
         grid-row-gap: 40px;
     }
+    
 }
 
 
@@ -55,9 +60,25 @@
     .hrader-right img:hover{
         transform: scale(1);
     }
-  
+    /* ============client area======================= */
+    .clients{
+        grid-template-columns:repeat(2, 1fr);
+    }
     /* ===============product section ================ */
+    .product{
+        margin-bottom: 50px;
+    }
     .product-items{
         grid-template-columns: repeat(1,1fr);
+    }
+    /* ===================contact area =========================== */
+    .contact{
+        display: grid;
+        grid-template-columns:1fr;
+        margin-bottom: 50px;
+    }
+    .contact-item:hover{
+        background-color:var(--secondary-color);
+        transform: scale(1);
     }
 }
