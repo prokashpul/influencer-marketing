@@ -110,6 +110,7 @@
     }
     .hrader-right {
         flex-basis: 0;
+        text-align: center;
     }
     .hrader-right img {
         width: 98%;
