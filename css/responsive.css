@@ -1,132 +1,130 @@
 /* ------------------------- Tablet View ----------------------- */
+
 @media (min-width:768px) and (max-width:1080px) {
-    html{
+    html {
         font-size: 72.5%;
     }
-    .container{
-        max-width:90%;
+    .container {
+        max-width: 90%;
     }
-
     /* header area */
-    .header-left,.hrader-right{
-        flex-basis:48%;
+    .header-left,
+    .hrader-right {
+        flex-basis: 48%;
     }
-    .hrader-right img{
-        width:100%;
-        height:100%;
+    .hrader-right img {
+        width: 100%;
+        height: 100%;
     }
-    
     /* =============clicent area============== */
-    .clients{
-        grid-template-columns:repeat(3, 1fr);
+    .clients {
+        grid-template-columns: repeat(3, 1fr);
     }
     /* =================== product area =========================== */
-    .product-items{
-        grid-template-columns: repeat(2,1fr);
+    .product-items {
+        grid-template-columns: repeat(2, 1fr);
         grid-row-gap: 40px;
     }
-    .footer{
+    .footer {
         width: 100%;
     }
-    
 }
-
-
 
 
 /* ------------------------- Mobile View ----------------------- */
+
 @media only screen and (max-width:767px) {
-    html{
+    html {
         font-size: 60.5%;
-}
-    .container{
-        max-width:100%;
+    }
+    .container {
+        max-width: 100%;
     }
     /* header area */
-    .header{
+    .header {
         margin-bottom: 50px;
     }
-    .nav-menu{
-        padding:0;
+    .nav-menu {
+        padding: 0;
         align-items: center;
+        border-bottom: 1px solid var(--secondary-color);
     }
-    .logo{
+    .logo {
         padding: 10px;
     }
-    .nav-menu .fa-bars{
-        color:var(--secondary-color);
-        font-size:2.5em;
-        margin-right:20px;
+    .nav-menu .fa-bars {
+        color: var(--secondary-color);
+        font-size: 2.5em;
+        margin-right: 20px;
     }
-    .nav-menu .menu-items{
+    .nav-menu .menu-items {
         flex-direction: column;
-        background:var(--secondary-color);
+        background: var(--secondary-color);
         position: absolute;
         width: 100%;
-        left:-100%;
-        top:60px;
+        left: -100%;
+        top: 50px;
+        text-align: center;
         transition: 1s ease;
     }
-    .nav-menu .menu-items .menu-item{
-    padding: 20px;
-    margin-right: 0;
-    border-top:1px solid var(--primary-color);
-    width: 100%;
+    .nav-menu .menu-items .menu-item {
+        padding: 20px;
+        margin-right: 0;
+        border-top: 1px solid var(--primary-color);
+        width: 100%;
     }
-    .nav-menu .menu-items .menu-item a{
+    .nav-menu .menu-items .menu-item a {
         font-size: 1.2em;
-        color:var(--white-color);
+        color: var(--white-color);
     }
-    .nav-menu .fa-bars{
-        display:block;
+    .nav-menu .fa-bars {
+        display: block;
     }
-    #chack:checked~.menu-items{
-        left:0;
+    #chack:checked~.menu-items {
+        left: 0;
     }
-    .header-conten{
+    .header-conten {
         flex-direction: column;
     }
-    .header-left{
-        order:2;
+    .header-left {
+        order: 2;
         flex-basis: 0;
         margin-top: 20px;
         text-align: center;
     }
-    .hrader-right{
+    .hrader-right {
         flex-basis: 0;
     }
-    .hrader-right img{
-        width:98%;
-        height:90%;
+    .hrader-right img {
+        width: 98%;
+        height: 90%;
     }
-    .hrader-right img:hover{
+    .hrader-right img:hover {
         transform: scale(1);
     }
     /* ============client area======================= */
-    .clients{
-        grid-template-columns:repeat(2, 1fr);
+    .clients {
+        grid-template-columns: repeat(2, 1fr);
     }
     /* ===============product section ================ */
-    .product{
+    .product {
         margin-bottom: 50px;
     }
-    .product-items{
-        grid-template-columns: repeat(1,1fr);
+    .product-items {
+        grid-template-columns: repeat(1, 1fr);
     }
     /* ===================contact area =========================== */
-    .contact{
+    .contact {
         display: grid;
-        grid-template-columns:1fr;
+        grid-template-columns: 1fr;
         margin-bottom: 50px;
     }
-    .contact-item:hover{
-        background-color:var(--secondary-color);
+    .contact-item:hover {
+        background-color: var(--secondary-color);
         transform: scale(1);
     }
     /* footer */
-    .footer{
- 
+    .footer {
         width: 100%;
-
     }
 }
