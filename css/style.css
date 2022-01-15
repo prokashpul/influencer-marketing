@@ -43,7 +43,7 @@ a{
     font-weight:700;
     color: var(--white-color);
     background-color: var(--secondary-color);
-    box-shadow: 0 0 24px var(--secondary-color);
+    box-shadow: 2px 2px 14px rgba(187, 80, 230, 0.747);
     padding:10px 24px;
     margin: 20px 0;
     display:inline-block;
@@ -64,9 +64,12 @@ a{
     margin-bottom: 100px;
 }
 .nav-menu{
-    display:none;
+    display:flex;
     justify-content: space-between;
     padding: 45px 0 0;
+}
+.logo{
+    font-size:1.8em;
 }
 .nav-menu .menu-items{
     display:flex;
@@ -79,6 +82,9 @@ a{
 .nav-menu .menu-items .menu-item a{
     font-size: 1em;
     color:var(--primary-color);
+}
+#chack,.nav-menu .fa-bars{
+    display:none;
 }
 /* header content */
 .header-conten{
@@ -184,6 +190,7 @@ a{
     padding: 30px;
     background-color: var(--primary-color);
     color: var(--white-color);
+    box-shadow: 2px 2px 24px var(--primary-color);
     border-radius: 10px;
     transition: 1s  ease;
 }
