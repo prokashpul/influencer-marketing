@@ -205,3 +205,11 @@ a{
 .contact-item .fas{
     font-size:3em;
 }
+
+/* footer secton */
+.footer{
+    background-color:var(--primary-color);
+    color: var(--white-color);
+    width: 130%;
+    text-align: center;
+}

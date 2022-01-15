@@ -6,6 +6,7 @@
     .container{
         max-width:90%;
     }
+
     /* header area */
     .header-left,.hrader-right{
         flex-basis:48%;
@@ -14,6 +15,7 @@
         width:100%;
         height:100%;
     }
+    
     /* =============clicent area============== */
     .clients{
         grid-template-columns:repeat(3, 1fr);
@@ -22,6 +24,9 @@
     .product-items{
         grid-template-columns: repeat(2,1fr);
         grid-row-gap: 40px;
+    }
+    .footer{
+        width: 100%;
     }
     
 }
@@ -117,5 +122,11 @@
     .contact-item:hover{
         background-color:var(--secondary-color);
         transform: scale(1);
+    }
+    /* footer */
+    .footer{
+ 
+        width: 100%;
+
     }
 }
