@@ -152,6 +152,7 @@ a{
 }
 .product-item img{
     border-radius: 5px;
+    width: 100%;
 }
 .product-item .rating{
     margin: 10px 0;
