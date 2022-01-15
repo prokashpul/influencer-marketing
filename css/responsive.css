@@ -35,7 +35,7 @@
 
 @media only screen and (max-width:767px) {
     html {
-        font-size: 60.5%;
+        font-size: 62.5%;
     }
     .container {
         max-width: 100%;
@@ -75,6 +75,9 @@
     }
     .nav-menu .menu-items .menu-item a {
         font-size: 1.2em;
+        color: var(--white-color);
+    }
+    .nav-menu .menu-items .menu-item a:hover {
         color: var(--white-color);
     }
     .nav-menu .fa-bars {
